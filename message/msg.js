@@ -433,7 +433,7 @@ if (chats.startsWith(`Bot`)){
 			// Main Menu
 			case prefix+'menu':
 			case prefix+'help':
-			  conn.sendMessage(from, { audio: fs.readFileSync('audio/Assalamualaika.m4a'), mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
+			  /*conn.sendMessage(from, { audio: fs.readFileSync('audio/Assalamualaika.m4a'), mimetype: 'audio/mp4', ptt: true}, {quoted: msg})*/
 			    var teks = allmenu(sender, prefix, pushname, isOwner, isPremium, balance, limit, limitCount, glimit, gcount)
 			    
 				/*conn.sendMessage(from, { react: { text: `👋`, key: msg.key }})*/
