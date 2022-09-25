@@ -273,8 +273,7 @@ module.exports = async(conn, msg, m, setting, store) => {
 		}
 		//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+${ownerNumber}` } },
 		const buttonsDefault = [
-			{ urlButton: { displayText: `Nomer Owner`, url : `https://wa.me/6281319944917?text=Hai+kak+aku+mau+beli+PREMIUM` } },
-			{ quickReplyButton: { displayText: `🇯🇵`Owner, id: `${prefix}owner` } },
+			{ urlButton: { displayText: `Nomer Owner`, url : `https://wa.me/6283811034750?text=Hai+kak+aku+mau+beli+PREMIUM` } },
 		]
 		const button5 = [
 			{ urlButton: { displayText: `Owner number`, url : `wa.me/6283811034750` } },
